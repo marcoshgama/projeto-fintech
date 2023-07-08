@@ -1,0 +1,72 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+:root{
+    --color-light: #ffffff;
+}
+
+.main{
+    height: 100vh;
+}
+.bag-nav{
+    background-color: transparent;
+}
+
+.title{
+    font-size: 7vmin;
+    font-weight: 600;
+    color: var(--bs-success-text-emphasis);
+    transition: .5s;
+}
+
+.nav-item{
+    font-size: 4vmin;
+    color: var(--color-light);
+    transition: .5s;
+}
+
+.section{
+    color: #ffffff;
+}
+
+.texto-section{
+    font-size: 9vmin;
+    justify-content: center;
+}
+
+.dinheiro, .cadastro, .login{
+    color: var(	--bs-success);
+}
+.login{
+    font-weight: 600;
+}
+
+.cadastro{
+    text-decoration: none;
+}
+.title:hover, .nav-item:hover{
+    color: var(--bs-success) !important;
+}
+.btn-enviar{
+    transition: .5s;
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    height: 20vh;
+}
+
+.texto-sobre{
+    color: var(--bs-success);
+    font-size: 8vmin;
+}
+
+.descricao{
+    font-size: 6vmin;
+}
+
+.icon-img{
+    width: 100%;;
+}
